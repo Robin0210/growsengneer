@@ -1,4 +1,10 @@
 <?php
+//mod start 20200329
+//エラー調査
+ini_set( 'display_errors', 1 );
+ini_set( 'error_reporting', E_ALL );
+//mod end 20200329
+
 //セッション生成
 session_start();
 
